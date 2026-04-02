@@ -94,7 +94,7 @@ export default function App() {
    - 结尾：最后总写呼吁大家积极下载。`;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-3.1-pro-preview',
+        model: 'gemini-3.1-flash-lite-preview',
         contents: prompt,
         config: {
           responseMimeType: 'application/json',
